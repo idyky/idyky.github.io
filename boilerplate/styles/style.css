@@ -1,0 +1,16 @@
+body {
+	background: #F0F0E0;
+	display: inline;
+}
+
+img {
+	display: block; /*this overrides the line styling of images for the user agent stylesheet */
+}
+
+a {
+	font-size: 30px
+}
+
+fontSize {
+	font-size: 30px
+}

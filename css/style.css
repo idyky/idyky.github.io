@@ -1,0 +1,90 @@
+ul {
+    border: 1px solid #cecece;
+    border-width: 1px 0;
+    list-style: none;
+    margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+    padding: 0;
+    text-align: center;
+	width: 70%
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+li a:hover {
+    background-color: #848484;
+    color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.note {
+	text-decoration: none;
+	color: #000;
+	background: #ffc;
+	display: block;
+	height: 300px;
+	width: 300px;
+	padding: 0;
+	margin: 20px;
+	box-shadow: 8px 12px 5px grey;
+	transform: rotate(1deg);
+	overflow: hidden;
+}
+
+.note:hover {
+	box-shadow: 6px 9px 4px grey;
+}
+
+.note:nth-of-type(1) {
+	background: #89b6ff;
+	transform: rotate(0.3deg);
+}
+
+.note:nth-of-type(2) {
+	background: #a5ffc4;
+}
+
+.note:nth-of-type(3) {
+	transform: rotate(-0.7deg);
+	background: #f9a7c5;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	margin: 0;
+}
+
+p {
+	margin: 10px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 150%;
+}

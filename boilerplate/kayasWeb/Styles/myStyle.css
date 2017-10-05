@@ -1,0 +1,36 @@
+/* myStyle.css */
+
+body {
+ background-color: #99ff99;
+ color: #FFFFFF;
+}
+
+
+h1 {
+ color: #000000;
+ text-align: center;
+ font: 400% fantasy;
+}
+
+
+img {
+    vertical-align: center;
+}
+
+
+a:link {
+    color: #660000; 
+    background-color: transparent; 
+    text-align: center;
+    font: 200% fantasy;
+}
+a:visited {
+    color:#4d2600;
+}
+
+
+p {
+     color: #000000;
+ text-align: center;
+ font: 150% fantasy;
+}
