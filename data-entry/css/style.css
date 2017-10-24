@@ -12,6 +12,18 @@ input {
 	font-family: Roboto;
 }
 
+p {
+	font-size: 20px;
+}
+
+button {
+	border: 1px solid #000;
+    border-radius: 5px;
+	font-size: 20px;
+	text-align: center;
+	font-family: Roboto;
+}
+
 .container	{
 	display: flex;
 	flex-wrap: wrap;
@@ -21,8 +33,4 @@ input {
 	flex-grow: 1;
 	width: 400px;
 	height: 400px;
-}
-
-p {
-	font-size: 20px;
 }

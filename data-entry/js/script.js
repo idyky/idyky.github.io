@@ -1,12 +1,30 @@
 $(document).ready(function() {
 	//clear input on refresh
 	$('.input').val('');
+	$('.output').append('Input cleraed on refresh<br>');
 	//tab the text box over when it hits max length
-	$(".input").keyup(function () {
+	$('.input').keyup(function () {
 		if (this.value.length == this.maxLength) {
-		  $(this).next('.input').focus();
+			$(this).next('.input').focus();
+			$('.output').append('Automatically tabbed over<br>');
 		}
 	});
+		
+	$('.clear').click(function() {
+		$('.input').val('');
+		$('.output').append('Input cleraed<br>');
+	});
+
+	$(".input").mouseenter(function() {
+		$(".output").append('Mouse hovered over textbox<br>');
+	});
+
+	$(".input").click(function() {
+		$(".output").append('Textbox Clicked & everything selected<br>');
+		//select everything in the textbox
+		$(this).select();
+	});
+
 	//force it to only use numbers
 	$(".input").ForceNumericOnly();
 });
