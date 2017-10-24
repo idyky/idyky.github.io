@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Better Credit Card Entry</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+		<h1>User friendly Credit Card number entry</h1>
+		<input class="input" type="text" maxlength="4" /> -
+		<input class="input" type="text" maxlength="4" /> -
+		<input class="input" type="text" maxlength="4" /> -
+		<input class="input" type="text" maxlength="4" />
+		</div>
+		<div class="box">
+			<p>This is a simple credit card number entry that tabs when you enter 4 digits. It makes it much easier to enter data. <br>
+			I am using jQuery to tab the text box over. I set max length on input and have jQuery listening when it hits max length it tabs over.
+			I'm also using a input validator to make sure no characters other than numbers get typed in the text box.	
+		</div>
+	</div>	
+</body>
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous">
+	</script>
+	<script src="js/script.js"></script> 
+</html>
