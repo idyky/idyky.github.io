@@ -1,0 +1,16 @@
+html {
+	font-size: 100%;
+}
+
+ul {
+  font-size: 0.75rem;
+}
+
+body {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.container {
+	max-width: 46rem;
+}
