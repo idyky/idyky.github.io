@@ -12,7 +12,8 @@ $(document).ready(function() {
 		
 	$('.clear').click(function() {
 		$('.input').val('');
-		$('.output').append('Input cleraed<br>');
+		$('.output').html('<h3>Output</h3>Input cleraed<br>');
+		//$('.output').append('Input cleraed<br>');
 	});
 
 	$(".input").mouseenter(function() {
