@@ -1,12 +1,16 @@
 $(document).ready(function() {
+	//Count the ammount of times tabbed over
+	var i = 0;
 	//clear input on refresh
 	$('.input').val('');
 	$('.output').append('Input cleraed on refresh<br>');
 	//tab the text box over when it hits max length
 	$('.input').keyup(function () {
-		if (this.value.length == this.maxLength) {
+		if (this.value.length == this.maxLength && i < 4) {
 			$(this).next('.input').focus();
 			$('.output').append('Automatically tabbed over<br>');
+			$('.output').append('Numbers entered: ' + this.value + '<br>');
+			i++;
 		}
 	});
 		
@@ -14,6 +18,7 @@ $(document).ready(function() {
 		$('.input').val('');
 		$('.output').html('<h3>Output</h3>Input cleraed<br>');
 		//$('.output').append('Input cleraed<br>');
+		i = 0;
 	});
 
 	$(".input").mouseenter(function() {
