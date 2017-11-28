@@ -4,6 +4,7 @@ body {
 	text-align: center;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #f7f7f7;
 }
 
 .wrap {
@@ -16,7 +17,7 @@ body {
 
 .words {
 	border: none;
-	background-color: #aaffd3;
+	background-color: #87f2c7;
 	flex-shrink: 1;
 	padding: 4px;
 	margin: 4px;
