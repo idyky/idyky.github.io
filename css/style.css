@@ -78,6 +78,11 @@ a:visited {
 	background: #f9a7c5;
 }
 
+.note:nth-of-type(5) {
+	background: #b27fff;
+}
+
+
 h1 {
 	font-family: 'Gloria Hallelujah', cursive;
 	margin: 0;
